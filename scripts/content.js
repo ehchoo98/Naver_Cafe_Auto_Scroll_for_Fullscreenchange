@@ -3,8 +3,8 @@ var scrolY = 0;
 let FullScreen = false;
 
 onscroll = () => {
-  scrolx = window.scrollX;
-  scroly = window.scrollY;
+  scrolX = window.scrollX;
+  scrolY = window.scrollY;
   setTimeout(() => {
     FullScreen = document.fullscreen
   }, 1000);
