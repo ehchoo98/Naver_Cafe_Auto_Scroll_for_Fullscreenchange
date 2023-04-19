@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Reading time",
+  "name": "Naver_Cafe_Fullscreen_Auto_scroll",
   "version": "1.0",
-  "description": "Add the reading time to Chrome Extension documentation articles",
+  "description": "네이버 카페에서 동영상 풀스크린 이용시, 스크롤이 원치 않는 곳으로 이동하는 문제 해결 ",
 
   "icons": {
     "16": "images/icon-16.png",
@@ -14,8 +14,7 @@
     {
       "js": ["scripts/content.js"],
       "matches": [
-        "https://developer.chrome.com/docs/extensions/*",
-        "https://developer.chrome.com/docs/webstore/*"
+        "*://cafe.naver.com/*"
       ]
     }
   ]
