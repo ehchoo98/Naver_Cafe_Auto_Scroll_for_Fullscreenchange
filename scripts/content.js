@@ -1,10 +1,15 @@
 var scrolX = 0;
 var scrolY = 0;
-let FullScreen = false;
+let wasFullScreen = false;
 
 onscroll = () => {
-  scrolX = window.scrollX;
-  scrolY = window.scrollY;
+  if(document.fullscreen){
+    wasFullScreen = true;
+    window.scrollTo(scrolX, scrolY)
+  }else{
+    scrolX = window.scrollX;
+    scrolY = window.scrollY;
+  }
   setTimeout(() => {
     FullScreen = document.fullscreen
   }, 1000);
