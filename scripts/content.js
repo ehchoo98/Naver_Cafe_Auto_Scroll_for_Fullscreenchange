@@ -3,16 +3,13 @@ var scrolY = 0;
 let wasFullScreen = false;
 
 onscroll = () => {
-  if(document.fullscreen){
-    wasFullScreen = true;
+  if(!document.fullscreen && wasFullScreen){
     window.scrollTo(scrolX, scrolY)
-  }else{
-    scrolX = window.scrollX;
-    scrolY = window.scrollY;
   }
   setTimeout(() => {
-    FullScreen = document.fullscreen
-  }, 1000);
+    scrolX = window.scrollX;
+    scrolY = window.scrollY;
+  }, 100);
   //alert(`scroll! ${scrolX}, ${scrolY}, fullscreen = ${FullScreen}`) 
 }
 
