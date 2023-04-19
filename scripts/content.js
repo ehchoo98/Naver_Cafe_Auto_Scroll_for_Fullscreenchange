@@ -8,6 +8,6 @@ onscroll = () => {
   setTimeout(() => {
     FullScreen = document.fullscreen
   }, 1000);
-  alert(`scroll! ${scrolx}, ${scroly}, fullscreen = ${FullScreen}`) 
+  alert(`scroll! ${scrolX}, ${scrolY}, fullscreen = ${FullScreen}`) 
 }
 
