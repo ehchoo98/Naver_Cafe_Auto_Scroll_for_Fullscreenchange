@@ -1,4 +1,4 @@
-const mainWin = top.document.querySelector("iframe#cafe_main").contentWindow;
+let mainWin = top.document.querySelector("iframe#cafe_main").contentWindow;
 let screenElement;
 
 mainWin.document.addEventListener("fullscreenchange", () => {
