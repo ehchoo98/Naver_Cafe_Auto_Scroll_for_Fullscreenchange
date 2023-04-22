@@ -1,15 +1,11 @@
-var scrolX = 0;
-var scrolY = 0;
-let wasFullScreen = false;
+const mainWin = top.document.querySelector("iframe#cafe_main").contentWindow;
+let screenElement;
 
-onscroll = () => {
-  if(!document.fullscreen && wasFullScreen){
-    window.scrollTo(scrolX, scrolY)
-  }
-  setTimeout(() => {
-    scrolX = window.scrollX;
-    scrolY = window.scrollY;
-  }, 100);
-  //alert(`scroll! ${scrolX}, ${scrolY}, fullscreen = ${FullScreen}`) 
-}
-
+mainWin.document.addEventListener("fullscreenchange", () => {
+    if(mainWin.document.fullscreenElement) {
+        screenElement = mainWin.document.fullscreenElement;
+    }else{
+        screenElement.scrollIntoView({block:"center"});
+    }
+    setTimeout(() => {}, 100)
+}, {passive: true});
