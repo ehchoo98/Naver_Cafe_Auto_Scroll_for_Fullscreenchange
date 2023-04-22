@@ -1,9 +1,9 @@
-let mainWin = top.document.querySelector("iframe#cafe_main").contentWindow;
+let elem = top.document.querySelector("iframe#cafe_main");
 let screenElement;
 
-mainWin.document.addEventListener("fullscreenchange", () => {
-    if(mainWin.document.fullscreenElement) {
-        screenElement = mainWin.document.fullscreenElement;
+elem.contentWindow.document.addEventListener("fullscreenchange", () => {
+    if(elem.contentWindow.document.fullscreenElement) {
+        screenElement = elem.contentWindow.document.fullscreenElement;
     }else{
         screenElement.scrollIntoView({block:"center"});
     }
