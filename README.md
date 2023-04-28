@@ -9,8 +9,12 @@
 
 네이버 카페 내의 네이버 동영상 혹은 임베디드 플레이어에 적용됩니다.
 
+
 ## How to use?
-크롬 웹스토어에서 "네이버 카페 고정 전체화면"을 chrome에 추가하시면 바로 적용됩니다.
+크롬 웹스토어에서 "네이버 카페 전체화면 스크롤"을 chrome에 추가하시면 바로 적용됩니다.
+
+https://chrome.google.com/webstore/detail/ncpmjjjpjejpmkcakanhjnghpbddcajo?authuser=0&hl=ko
+
 
 ## History
 1.0.0 Extension Released
