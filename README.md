@@ -10,6 +10,6 @@
 크롬 웹스토어에서 "네이버 카페 고정 전체화면"을 chrome에 추가하시면 바로 적용됩니다.
 
 ## History
-1.0.0 Extension Released
+- 1.0.0 Extension Released
 
-1.0.1 Icon Updated 
+- 1.0.1 Icon Updated 
