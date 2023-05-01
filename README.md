@@ -17,6 +17,6 @@ https://chrome.google.com/webstore/detail/ncpmjjjpjejpmkcakanhjnghpbddcajo?authu
 
 
 ## History
-1.0.0 Extension Released
+1.0.0.1 Extension Released
  
-1.0.1 Icon Updated 
+1.0.1.1 Icon Updated, Icon Error Fixed
