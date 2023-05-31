@@ -22,3 +22,5 @@ https://chrome.google.com/webstore/detail/ncpmjjjpjejpmkcakanhjnghpbddcajo?authu
 1.0.1.1 Icon Updated, Icon Error Fixed
 
 1.0.1.2 Icon(16X16) resized
+
+1.0.2.1 applied to single frame
