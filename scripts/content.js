@@ -1,4 +1,4 @@
-let docs = top.document.querySelector("iframe#cafe_main").contentWindow.document
+let docs = top.document.querySelector("iframe#cafe_main").contentWindow.document 
 let screenElement
 
 try{
