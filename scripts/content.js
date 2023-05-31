@@ -1,12 +1,13 @@
-let elem = top.document.querySelector("iframe#cafe_main");
-let screenElement;
+let docs = top.document.querySelector("iframe#cafe_main").contentWindow.document
+let screenElement
 
 try{
-    elem.contentWindow.document.addEventListener("fullscreenchange", () => {
-        if(elem.contentWindow.document.fullscreenElement) {
-            screenElement = elem.contentWindow.document.fullscreenElement;
+    docs.addEventListener("fullscreenchange", () => {
+        if(docs.fullscreenElement) {
+            screenElement = docs.fullscreenElement
+            console.log(screenElement)
         }else{
-            screenElement.scrollIntoView({block:"center"});
+            screenElement.scrollIntoView({block:"center"})
         }
         setTimeout(() => {}, 100)
     }, {passive: true});
