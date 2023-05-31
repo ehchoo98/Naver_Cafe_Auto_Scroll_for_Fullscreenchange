@@ -5,7 +5,6 @@ try{
     docs.addEventListener("fullscreenchange", () => {
         if(docs.fullscreenElement) {
             screenElement = docs.fullscreenElement
-            console.log(screenElement)
         }else{
             screenElement.scrollIntoView({block:"center"})
         }
