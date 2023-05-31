@@ -14,7 +14,7 @@
     {
       "js": ["scripts/content.js"],
       "matches": [
-        "*://cafe.naver.com/*"
+        "*://cafe.naver.com/*ArticleRead.nhn*"
       ],
       "all_frames": false
     }
